@@ -26,7 +26,7 @@ header{
  
  .content-layout{
     display: grid;
-    grid-template-columns: 220px 1fr 1fr;  
+    grid-template-columns: 220px 1.4fr 0.8fr;  
     gap: 16px;
     padding: 16px;
 }
@@ -40,7 +40,7 @@ nav{
  
 nav a{
     min-width: 200px;  
-    background-color: rgb(18, 5, 120);
+    background-color: rgb(44, 144, 226);
     color: white;
     border-radius: 10px;
     display: block;
@@ -49,6 +49,41 @@ nav a{
     text-decoration: none;
     text-align: center;
  
+}
+.verslista{
+    overflow-x: auto;
+}
+.tablazat{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    table-layout: fixed ;
+}
+.tablazat th,
+.tablazat td{
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid #c7e1ec;
+    word-wrap: break-word;
+}
+.tablazat th, .tablazat tbody tr:nth-child(even){
+   background-color: #e6f8ff; 
+ 
+}
+.tablazat th{
+    font-weight: 600;
+}
+.tablazat a{
+    color: rgb(44, 144, 226);
+    text-decoration: none;
+}
+.verstext{
+padding-left: 16px;
+border-left: 1px solid #ccc;
+}
+.verstext h2{
+    margin-bottom: 8px;
+    font-size: 18px;
 }
  
 .gallery {
