@@ -119,3 +119,43 @@ footer{
     font-size: 12px;
     border-radius: 0 0 8px 8px;
 }
+@media (max-width: 768px) {
+ .content{
+        width: 95%;
+        margin: 0 auto;
+    }
+.content-layout{
+        display: block;     
+        padding: 16px 8px;
+    }
+nav{
+        padding: 0;
+        margin-bottom: 16px;
+    }
+
+nav a{
+        width: 100%;
+    }
+.gallery{
+        align-items: stretch;
+    }
+.gallery-grid{
+        grid-template-columns: repeat(2, 1fr);  
+        gap: 12px;
+        justify-items: center;                 
+    }
+
+.polaroid img{
+        width: 100%;
+        max-width: 180px; 
+        height: auto;
+    }
+.intro-text{
+        margin-top: 24px;
+    }
+    .Intro1 p,
+    .Intro2 p{
+        text-align: justify;
+        font-size: 14px;
+    }
+}
